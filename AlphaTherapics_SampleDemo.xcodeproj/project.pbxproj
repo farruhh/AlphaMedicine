@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2935F4B3255920E3007BBC05 /* AlertUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935F4B2255920E3007BBC05 /* AlertUtility.swift */; };
+		2935F4B5255BD0BB007BBC05 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935F4B4255BD0BB007BBC05 /* SplashViewController.swift */; };
+		2935F4B8255BFD66007BBC05 /* UIStoryboard+VCinitiator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935F4B7255BFD66007BBC05 /* UIStoryboard+VCinitiator.swift */; };
+		2935F4BD255C0527007BBC05 /* UIApplication+AlphaTherapeutics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935F4BC255C0527007BBC05 /* UIApplication+AlphaTherapeutics.swift */; };
+		2935F4BF255C0807007BBC05 /* SplashAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 2935F4BE255C0807007BBC05 /* SplashAnimation.json */; };
+		2936C2122558ECE7001AFF2D /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2936C2112558ECE7001AFF2D /* CategoryCell.swift */; };
+		2936C2152558EE75001AFF2D /* StoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2936C2142558EE75001AFF2D /* StoryCell.swift */; };
+		2936C2192558F1E7001AFF2D /* DiagnosisCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2936C2182558F1E7001AFF2D /* DiagnosisCell.swift */; };
+		2936C21E2558F803001AFF2D /* ServerCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2936C21D2558F803001AFF2D /* ServerCommunicator.swift */; };
+		2936C2202558F81A001AFF2D /* API_Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2936C21F2558F81A001AFF2D /* API_Handler.swift */; };
+		2936C2242558F94E001AFF2D /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2936C2232558F94E001AFF2D /* Response.swift */; };
+		2936C22C25590869001AFF2D /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2936C22B25590869001AFF2D /* UIViewExtension.swift */; };
+		29492DE4255C689000BF0B2B /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29492DE3255C689000BF0B2B /* MainCoordinator.swift */; };
+		29492DE6255C68E200BF0B2B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29492DE5255C68E200BF0B2B /* Coordinator.swift */; };
+		29492DE8255C694F00BF0B2B /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29492DE7255C694F00BF0B2B /* Storyboarded.swift */; };
+		29492DF7255CEB1800BF0B2B /* DataRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29492DF6255CEB1800BF0B2B /* DataRetriever.swift */; };
+		29492DF9255CEB7800BF0B2B /* diagnosis.json in Resources */ = {isa = PBXBuildFile; fileRef = 29492DF8255CEB7800BF0B2B /* diagnosis.json */; };
+		29492DFB255CEB7F00BF0B2B /* issues.json in Resources */ = {isa = PBXBuildFile; fileRef = 29492DFA255CEB7F00BF0B2B /* issues.json */; };
+		29492DFD255CEB8700BF0B2B /* symptoms.json in Resources */ = {isa = PBXBuildFile; fileRef = 29492DFC255CEB8700BF0B2B /* symptoms.json */; };
+		29492DFF255D026200BF0B2B /* Diagnosis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29492DFE255D026200BF0B2B /* Diagnosis.swift */; };
+		29492E01255DB49F00BF0B2B /* Symptom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29492E00255DB49F00BF0B2B /* Symptom.swift */; };
+		29492E03255DCB7100BF0B2B /* SymtomsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29492E02255DCB7100BF0B2B /* SymtomsCell.swift */; };
+		29878F8D2558C64700EC7AD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29878F8C2558C64700EC7AD8 /* AppDelegate.swift */; };
+		29878F942558C64700EC7AD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29878F922558C64700EC7AD8 /* Main.storyboard */; };
+		29878F962558C64B00EC7AD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29878F952558C64B00EC7AD8 /* Assets.xcassets */; };
+		29878F992558C64B00EC7AD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29878F972558C64B00EC7AD8 /* LaunchScreen.storyboard */; };
+		29878FAB2558C97B00EC7AD8 /* DiagnosisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29878FAA2558C97B00EC7AD8 /* DiagnosisViewController.swift */; };
+		29878FAD2558C99E00EC7AD8 /* SymptomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29878FAC2558C99E00EC7AD8 /* SymptomsViewController.swift */; };
+		29878FB32558E02800EC7AD8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29878FB22558E02800EC7AD8 /* MainViewController.swift */; };
+		D713A363BE8D07C0D1011F30 /* Pods_AlphaTherapics_SampleDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD967B09A21A18591907A2F /* Pods_AlphaTherapics_SampleDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2935F4B2255920E3007BBC05 /* AlertUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUtility.swift; sourceTree = "<group>"; };
+		2935F4B4255BD0BB007BBC05 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		2935F4B7255BFD66007BBC05 /* UIStoryboard+VCinitiator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+VCinitiator.swift"; sourceTree = "<group>"; };
+		2935F4BC255C0527007BBC05 /* UIApplication+AlphaTherapeutics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+AlphaTherapeutics.swift"; sourceTree = "<group>"; };
+		2935F4BE255C0807007BBC05 /* SplashAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SplashAnimation.json; sourceTree = "<group>"; };
+		2936C2112558ECE7001AFF2D /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		2936C2142558EE75001AFF2D /* StoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCell.swift; sourceTree = "<group>"; };
+		2936C2182558F1E7001AFF2D /* DiagnosisCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosisCell.swift; sourceTree = "<group>"; };
+		2936C21D2558F803001AFF2D /* ServerCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerCommunicator.swift; sourceTree = "<group>"; };
+		2936C21F2558F81A001AFF2D /* API_Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Handler.swift; sourceTree = "<group>"; };
+		2936C2232558F94E001AFF2D /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		2936C22B25590869001AFF2D /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		29492DE3255C689000BF0B2B /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		29492DE5255C68E200BF0B2B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		29492DE7255C694F00BF0B2B /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		29492DF6255CEB1800BF0B2B /* DataRetriever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRetriever.swift; sourceTree = "<group>"; };
+		29492DF8255CEB7800BF0B2B /* diagnosis.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = diagnosis.json; sourceTree = "<group>"; };
+		29492DFA255CEB7F00BF0B2B /* issues.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = issues.json; sourceTree = "<group>"; };
+		29492DFC255CEB8700BF0B2B /* symptoms.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = symptoms.json; sourceTree = "<group>"; };
+		29492DFE255D026200BF0B2B /* Diagnosis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagnosis.swift; sourceTree = "<group>"; };
+		29492E00255DB49F00BF0B2B /* Symptom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptom.swift; sourceTree = "<group>"; };
+		29492E02255DCB7100BF0B2B /* SymtomsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymtomsCell.swift; sourceTree = "<group>"; };
+		29878F892558C64700EC7AD8 /* AlphaTherapics_SampleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphaTherapics_SampleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29878F8C2558C64700EC7AD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29878F932558C64700EC7AD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29878F952558C64B00EC7AD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29878F982558C64B00EC7AD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29878F9A2558C64B00EC7AD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29878FAA2558C97B00EC7AD8 /* DiagnosisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosisViewController.swift; sourceTree = "<group>"; };
+		29878FAC2558C99E00EC7AD8 /* SymptomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomsViewController.swift; sourceTree = "<group>"; };
+		29878FB22558E02800EC7AD8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		864916C3D3BD110FB3394662 /* Pods-AlphaTherapics_SampleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaTherapics_SampleDemo.release.xcconfig"; path = "Target Support Files/Pods-AlphaTherapics_SampleDemo/Pods-AlphaTherapics_SampleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9FD967B09A21A18591907A2F /* Pods_AlphaTherapics_SampleDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlphaTherapics_SampleDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F8CD11A932F23142B9F4BC /* Pods-AlphaTherapics_SampleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaTherapics_SampleDemo.debug.xcconfig"; path = "Target Support Files/Pods-AlphaTherapics_SampleDemo/Pods-AlphaTherapics_SampleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29878F862558C64700EC7AD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D713A363BE8D07C0D1011F30 /* Pods_AlphaTherapics_SampleDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2935F4B6255BD260007BBC05 /* UIStoryboard+VCmanager */ = {
+			isa = PBXGroup;
+			children = (
+				2935F4B7255BFD66007BBC05 /* UIStoryboard+VCinitiator.swift */,
+			);
+			path = "UIStoryboard+VCmanager";
+			sourceTree = "<group>";
+		};
+		2935F4B9255C046F007BBC05 /* UIApplication+Therapeutics */ = {
+			isa = PBXGroup;
+			children = (
+				2935F4BC255C0527007BBC05 /* UIApplication+AlphaTherapeutics.swift */,
+			);
+			path = "UIApplication+Therapeutics";
+			sourceTree = "<group>";
+		};
+		2936C2162558F1B4001AFF2D /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				2936C2112558ECE7001AFF2D /* CategoryCell.swift */,
+				2936C2142558EE75001AFF2D /* StoryCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		2936C2172558F1CA001AFF2D /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				2936C2182558F1E7001AFF2D /* DiagnosisCell.swift */,
+				29492E02255DCB7100BF0B2B /* SymtomsCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		29492DE2255C687D00BF0B2B /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				29492DE3255C689000BF0B2B /* MainCoordinator.swift */,
+				29492DE5255C68E200BF0B2B /* Coordinator.swift */,
+				29492DE7255C694F00BF0B2B /* Storyboarded.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		29492DE9255C9AC500BF0B2B /* SampleJsonData */ = {
+			isa = PBXGroup;
+			children = (
+				29492DF8255CEB7800BF0B2B /* diagnosis.json */,
+				29492DFA255CEB7F00BF0B2B /* issues.json */,
+				29492DFC255CEB8700BF0B2B /* symptoms.json */,
+			);
+			path = SampleJsonData;
+			sourceTree = "<group>";
+		};
+		29492DF5255CEAFC00BF0B2B /* SampleDataRetriever */ = {
+			isa = PBXGroup;
+			children = (
+				29492DF6255CEB1800BF0B2B /* DataRetriever.swift */,
+			);
+			path = SampleDataRetriever;
+			sourceTree = "<group>";
+		};
+		29878F802558C64700EC7AD8 = {
+			isa = PBXGroup;
+			children = (
+				29878F8B2558C64700EC7AD8 /* AlphaTherapics_SampleDemo */,
+				29878F8A2558C64700EC7AD8 /* Products */,
+				426711E22E82AC0984B7FABD /* Pods */,
+				FF91610133CC88028D86C53D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29878F8A2558C64700EC7AD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29878F892558C64700EC7AD8 /* AlphaTherapics_SampleDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29878F8B2558C64700EC7AD8 /* AlphaTherapics_SampleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				29878FA02558C73400EC7AD8 /* Assets */,
+				29492DE9255C9AC500BF0B2B /* SampleJsonData */,
+				29878FA42558C79600EC7AD8 /* Utilities */,
+				29878FA22558C77A00EC7AD8 /* Entity */,
+				29878FA32558C78100EC7AD8 /* Managers */,
+				29878FA12558C75400EC7AD8 /* Configuration */,
+				29878FA52558C79E00EC7AD8 /* Views */,
+				29878FA62558C7A700EC7AD8 /* ViewControllers */,
+				29878F8C2558C64700EC7AD8 /* AppDelegate.swift */,
+				29878F9A2558C64B00EC7AD8 /* Info.plist */,
+			);
+			path = AlphaTherapics_SampleDemo;
+			sourceTree = "<group>";
+		};
+		29878FA02558C73400EC7AD8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2935F4BE255C0807007BBC05 /* SplashAnimation.json */,
+				29878F922558C64700EC7AD8 /* Main.storyboard */,
+				29878F952558C64B00EC7AD8 /* Assets.xcassets */,
+				29878F972558C64B00EC7AD8 /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		29878FA12558C75400EC7AD8 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2936C21F2558F81A001AFF2D /* API_Handler.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		29878FA22558C77A00EC7AD8 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				29492DFE255D026200BF0B2B /* Diagnosis.swift */,
+				29492E00255DB49F00BF0B2B /* Symptom.swift */,
+				2936C2232558F94E001AFF2D /* Response.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		29878FA32558C78100EC7AD8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2936C21D2558F803001AFF2D /* ServerCommunicator.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		29878FA42558C79600EC7AD8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				29492DF5255CEAFC00BF0B2B /* SampleDataRetriever */,
+				29492DE2255C687D00BF0B2B /* Coordinators */,
+				2935F4B9255C046F007BBC05 /* UIApplication+Therapeutics */,
+				2935F4B6255BD260007BBC05 /* UIStoryboard+VCmanager */,
+				29878FA72558C7B700EC7AD8 /* Extensions */,
+				2935F4B2255920E3007BBC05 /* AlertUtility.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		29878FA52558C79E00EC7AD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2936C2172558F1CA001AFF2D /* TableViewCells */,
+				2936C2162558F1B4001AFF2D /* CollectionViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		29878FA62558C7A700EC7AD8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				29878FAA2558C97B00EC7AD8 /* DiagnosisViewController.swift */,
+				29878FAC2558C99E00EC7AD8 /* SymptomsViewController.swift */,
+				29878FB22558E02800EC7AD8 /* MainViewController.swift */,
+				2935F4B4255BD0BB007BBC05 /* SplashViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		29878FA72558C7B700EC7AD8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2936C22B25590869001AFF2D /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		426711E22E82AC0984B7FABD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4F8CD11A932F23142B9F4BC /* Pods-AlphaTherapics_SampleDemo.debug.xcconfig */,
+				864916C3D3BD110FB3394662 /* Pods-AlphaTherapics_SampleDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF91610133CC88028D86C53D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FD967B09A21A18591907A2F /* Pods_AlphaTherapics_SampleDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29878F882558C64700EC7AD8 /* AlphaTherapics_SampleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29878F9D2558C64B00EC7AD8 /* Build configuration list for PBXNativeTarget "AlphaTherapics_SampleDemo" */;
+			buildPhases = (
+				E43FFC6DC25D60A111C4A9A8 /* [CP] Check Pods Manifest.lock */,
+				29878F852558C64700EC7AD8 /* Sources */,
+				29878F862558C64700EC7AD8 /* Frameworks */,
+				29878F872558C64700EC7AD8 /* Resources */,
+				D2212DB6F52C8D5E0ADA29E8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlphaTherapics_SampleDemo;
+			productName = AlphaTherapics_SampleDemo;
+			productReference = 29878F892558C64700EC7AD8 /* AlphaTherapics_SampleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29878F812558C64700EC7AD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					29878F882558C64700EC7AD8 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 29878F842558C64700EC7AD8 /* Build configuration list for PBXProject "AlphaTherapics_SampleDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29878F802558C64700EC7AD8;
+			productRefGroup = 29878F8A2558C64700EC7AD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29878F882558C64700EC7AD8 /* AlphaTherapics_SampleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29878F872558C64700EC7AD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29878F992558C64B00EC7AD8 /* LaunchScreen.storyboard in Resources */,
+				29492DFD255CEB8700BF0B2B /* symptoms.json in Resources */,
+				29878F962558C64B00EC7AD8 /* Assets.xcassets in Resources */,
+				29878F942558C64700EC7AD8 /* Main.storyboard in Resources */,
+				29492DFB255CEB7F00BF0B2B /* issues.json in Resources */,
+				2935F4BF255C0807007BBC05 /* SplashAnimation.json in Resources */,
+				29492DF9255CEB7800BF0B2B /* diagnosis.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D2212DB6F52C8D5E0ADA29E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlphaTherapics_SampleDemo/Pods-AlphaTherapics_SampleDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlphaTherapics_SampleDemo/Pods-AlphaTherapics_SampleDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlphaTherapics_SampleDemo/Pods-AlphaTherapics_SampleDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E43FFC6DC25D60A111C4A9A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlphaTherapics_SampleDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29878F852558C64700EC7AD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29878F8D2558C64700EC7AD8 /* AppDelegate.swift in Sources */,
+				2936C2192558F1E7001AFF2D /* DiagnosisCell.swift in Sources */,
+				2935F4BD255C0527007BBC05 /* UIApplication+AlphaTherapeutics.swift in Sources */,
+				2935F4B3255920E3007BBC05 /* AlertUtility.swift in Sources */,
+				2936C22C25590869001AFF2D /* UIViewExtension.swift in Sources */,
+				29492DFF255D026200BF0B2B /* Diagnosis.swift in Sources */,
+				2936C2202558F81A001AFF2D /* API_Handler.swift in Sources */,
+				29878FAD2558C99E00EC7AD8 /* SymptomsViewController.swift in Sources */,
+				2936C2242558F94E001AFF2D /* Response.swift in Sources */,
+				2936C2152558EE75001AFF2D /* StoryCell.swift in Sources */,
+				2936C21E2558F803001AFF2D /* ServerCommunicator.swift in Sources */,
+				29492DE6255C68E200BF0B2B /* Coordinator.swift in Sources */,
+				2936C2122558ECE7001AFF2D /* CategoryCell.swift in Sources */,
+				29878FB32558E02800EC7AD8 /* MainViewController.swift in Sources */,
+				29492DF7255CEB1800BF0B2B /* DataRetriever.swift in Sources */,
+				29492DE4255C689000BF0B2B /* MainCoordinator.swift in Sources */,
+				29492E01255DB49F00BF0B2B /* Symptom.swift in Sources */,
+				2935F4B8255BFD66007BBC05 /* UIStoryboard+VCinitiator.swift in Sources */,
+				29878FAB2558C97B00EC7AD8 /* DiagnosisViewController.swift in Sources */,
+				29492E03255DCB7100BF0B2B /* SymtomsCell.swift in Sources */,
+				2935F4B5255BD0BB007BBC05 /* SplashViewController.swift in Sources */,
+				29492DE8255C694F00BF0B2B /* Storyboarded.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29878F922558C64700EC7AD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29878F932558C64700EC7AD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29878F972558C64B00EC7AD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29878F982558C64B00EC7AD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29878F9B2558C64B00EC7AD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29878F9C2558C64B00EC7AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29878F9E2558C64B00EC7AD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F8CD11A932F23142B9F4BC /* Pods-AlphaTherapics_SampleDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAM6P7SAHS;
+				INFOPLIST_FILE = AlphaTherapics_SampleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alpha.AlphaTherapics-SampleDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29878F9F2558C64B00EC7AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 864916C3D3BD110FB3394662 /* Pods-AlphaTherapics_SampleDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAM6P7SAHS;
+				INFOPLIST_FILE = AlphaTherapics_SampleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alpha.AlphaTherapics-SampleDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29878F842558C64700EC7AD8 /* Build configuration list for PBXProject "AlphaTherapics_SampleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29878F9B2558C64B00EC7AD8 /* Debug */,
+				29878F9C2558C64B00EC7AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29878F9D2558C64B00EC7AD8 /* Build configuration list for PBXNativeTarget "AlphaTherapics_SampleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29878F9E2558C64B00EC7AD8 /* Debug */,
+				29878F9F2558C64B00EC7AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29878F812558C64700EC7AD8 /* Project object */;
+}

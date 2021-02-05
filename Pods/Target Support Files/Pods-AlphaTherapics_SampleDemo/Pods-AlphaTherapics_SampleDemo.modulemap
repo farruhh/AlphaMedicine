@@ -1,0 +1,6 @@
+framework module Pods_AlphaTherapics_SampleDemo {
+  umbrella header "Pods-AlphaTherapics_SampleDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

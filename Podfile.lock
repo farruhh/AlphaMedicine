@@ -1,0 +1,65 @@
+PODS:
+  - Alamofire (5.2.2)
+  - CocoaLumberjack/Core (3.7.0)
+  - CocoaLumberjack/Swift (3.7.0):
+    - CocoaLumberjack/Core
+  - KWDrawerController (4.2):
+    - KWDrawerController/Core (= 4.2)
+  - KWDrawerController/Core (4.2)
+  - KWDrawerController/RxSwift (4.2):
+    - KWDrawerController/Core
+    - RxCocoa (>= 4.0.0)
+    - RxSwift (>= 4.0.0)
+  - lottie-ios (3.1.8)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.1)
+  - CocoaLumberjack/Swift
+  - KWDrawerController (~> 4.2)
+  - KWDrawerController/RxSwift
+  - lottie-ios
+  - PromiseKit (~> 6.8)
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CocoaLumberjack
+    - KWDrawerController
+    - lottie-ios
+    - PromiseKit
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  CocoaLumberjack: e8955b9d337ac307103b0a34fd141c32f27e53c5
+  KWDrawerController: 244ecb42378bd13a56826458647b76758db5cb67
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 508dd7247a03018ef4a85463af18368b59a6f7c0
+
+COCOAPODS: 1.9.3
